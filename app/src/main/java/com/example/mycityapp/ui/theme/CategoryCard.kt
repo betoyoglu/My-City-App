@@ -1,5 +1,6 @@
 package com.example.mycityapp.ui.theme
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,8 +19,14 @@ import com.example.mycityapp.data.Category
 import com.example.mycityapp.model.Datasource
 
 @Composable
-fun CategoryListItem(category: Category, modifier: Modifier = Modifier){
-    Card (modifier = modifier){
+fun CategoryListItem(
+    category: Category,
+    onCategoryClick: (Category) -> Unit,
+    modifier: Modifier = Modifier){
+    Card (modifier= modifier
+        .clickable{
+            onCategoryClick(category)
+        }){
         Text(
             text = stringResource(category.categoryName),
             style = MaterialTheme.typography.titleMedium,
@@ -29,7 +36,8 @@ fun CategoryListItem(category: Category, modifier: Modifier = Modifier){
 }
 
 @Composable
-fun MyCityHomeScreen(modifier: Modifier = Modifier){
+fun MyCityHomeScreen(onCategoryClick: (Category) -> Unit,
+                     modifier: Modifier = Modifier ){
     val categoryList = Datasource.getCategories()
 
     LazyColumn (
@@ -40,11 +48,17 @@ fun MyCityHomeScreen(modifier: Modifier = Modifier){
     { items(categoryList){ category ->
         CategoryListItem(
             category = category,
+            onCategoryClick = onCategoryClick,
             modifier = modifier.fillMaxWidth()
         )
 
     }
-
     }
+}
+
+@Composable
+fun RecommendationListScreen(selectedCategoryId: Int?){
+    val selected = Datasource.getCategories().find { it.categoryId == selectedCategoryId }
+
 
 }
