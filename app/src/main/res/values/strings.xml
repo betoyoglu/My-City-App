@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyCityApp</string>
+
+    <string name="category1">Coffee Shops</string>
+    <string name="category2">Restaurants</string>
+    <string name="category3">Shopping Centers</string>
+
+    <string name="recommendation_coffee1">Kahve Dünyası</string>
+    <string name="recommendation_coffee2">Mackbear</string>
+    <string name="recommendation_coffee3">Kremi</string>
+
+    <string name="recommendation_restaurant1">Rokka</string>
+    <string name="recommendation_restaurant2">Pizzen</string>
+    <string name="recommendation_restaurant3">Donas</string>
+
+    <string name="recommendation_shop1">kayseri park</string>
+    <string name="recommendation_shop2">kayseri forum</string>
+    <string name="recommendation_shop3">ipeksaray</string>
+
+    <string name="recommendation_coffee_details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+    <string name="recommendation_restaurant_details">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="recommendation_shop_details">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+</resources>
