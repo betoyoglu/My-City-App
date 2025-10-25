@@ -14,17 +14,20 @@ object Datasource {
                     Recommendation(
                         recommendationName = R.string.recommendation_coffee1,
                         recommendationDetails = R.string.recommendation_coffee_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_coffee2,
                         recommendationDetails = R.string.recommendation_coffee_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_coffee2,
                         recommendationDetails = R.string.recommendation_coffee_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     )
                 )
             ),
@@ -35,17 +38,20 @@ object Datasource {
                     Recommendation(
                         recommendationName = R.string.recommendation_restaurant1,
                         recommendationDetails = R.string.recommendation_restaurant_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_restaurant2,
                         recommendationDetails = R.string.recommendation_restaurant_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_restaurant3,
                         recommendationDetails = R.string.recommendation_restaurant_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     )
                 )
             ),
@@ -56,17 +62,20 @@ object Datasource {
                     Recommendation(
                         recommendationName = R.string.recommendation_shop1,
                         recommendationDetails = R.string.recommendation_shop_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_shop2,
                         recommendationDetails = R.string.recommendation_shop_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     ),
                     Recommendation(
                         recommendationName = R.string.recommendation_shop3,
                         recommendationDetails = R.string.recommendation_shop_details,
-                        recommendationImage = R.drawable.image
+                        recommendationImage = R.drawable.ordek,
+                        recommendationHeaderImage = R.drawable.image
                     )
                 )
             )
